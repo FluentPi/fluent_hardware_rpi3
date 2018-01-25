@@ -437,7 +437,7 @@ static size_t adev_get_input_buffer_size(const struct audio_hw_device *dev,
                                          const struct audio_config *config)
 {
     ALOGV("adev_get_input_buffer_size: %d", 320);
-    return 0;
+    return 320;
 }
 
 static int adev_open_input_stream(struct audio_hw_device *dev,
